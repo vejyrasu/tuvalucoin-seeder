@@ -1,0 +1,27 @@
+*.exe
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.bitcoin
+#compilation and Qt preprocessor part
+*.qm
+Makefile
+bitcoin-qt
+#resources cpp
+qrc_*.cpp
+creator
+*.pro.user
+#mac specific
+.DS_Store
+build
+*.config
+*.creator
+*.creator.user
+*.files
+*.includes
+
+!src/leveldb/Makefile
