@@ -20,7 +20,7 @@ extern unsigned short nP2Port;
 extern bool fTestNet;
 static inline unsigned short GetDefaultPort(const bool testnet = fTestNet)
 {
-    return testnet ? 17777 : 7777;
+    return testnet ? 17977 : 7977;
 }
 
 //
